@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>E-DAMY</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<Style>
+.navbar{
+    display: flex;
+ }
+ .nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .nav-list li {
+    list-style: none;
+    padding: 40px 20px;
+    display: flex;
+    
+    
+    
+}
+.nav-list li a{ 
+    text-decoration: none;
+    color: black;
+    
+}
+.nav-list li a:hover{ 
+    color: rgb(121, 76, 180);
+    
+}
+.rightnav{
+    
+    display: flex;
+    justify-content: end;
+    padding: 25px;
+
+        
+        
+}
+
+.banner-content .search-form {
+    position: relative;
+    margin-bottom: 30px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+}
+.banner-content .search-form .form-control {
+    background: hsla(0,0%,100%,.3);
+    border-radius: 6px;
+    backdrop-filter: blur(60px);
+    border-color: transparent;
+    color: #fff;
+}
+.form-control {
+    border: 1px solid #f2f0ef;
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 100%;
+    transition: all .5s ease;
+    display: block;
+    font-weight: 400;
+    line-height: 1.5;
+    appearance: none;
+    height: 50px;
+
+}
+.input{
+    margin: 0;
+    font-family: inherit;
+}
+input {
+writing-mode: horizontal-tb !important;
+text-rendering: auto;
+letter-spacing: normal;
+word-spacing: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none
+
+}
+.banner-content .search-form .default-btn {
+    height: 50px;
+    line-height: 52px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.banner-content .search-form .default-btn {
+    background-image: linear-gradient(#f0bf79,#f0bf79);
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #111;
+    padding: 0 23px;
+}
+
+.default-btn {
+    transition: all .5s ease;
+    text-align: center;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-flex;
+    background: linear-gradient(133.65deg,#6cc17e 2.24%,#098b99);
+    border-radius: 5px;
+    font-weight: 600;
+}
+::after, [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+.button {
+    outline: 0!important;
+    border: none;
+    margin: 0;
+    font-family: inherit;
+}
+
+.body{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+.banner-content .client-list {
+    text-align: center;
+}
+.banner-content .client-list {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+.ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.banner-content .client-list li img {
+    border-radius: 50px;
+    width: 46px;
+    height: 46px;
+}
+
+.i{
+    text-align: -webkit-match-parent;
+}
+.banner-content .client-list {
+  
+    list-style-type: none;
+}
+.banner-content .client-list li .client {
+    margin-left: -20px;
+}
+.img {
+    width: 50%;
+
+        border-radius: 30px;
+}
+.banner-content .client-list li {
+    display: inline-block;
+}
+
+.banner-content .client-list li p {
+    position: relative;
+    top: 2px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.banner-content .client-list li .client {
+    margin-left: -20px;
+}
+.banner-content .client-list li img {
+    border-radius: 50px;
+    width: 46px;
+    height: 46px;
+}
+
+.read-more {
+   color: #f4f0e1;
+    background-color: transparent;
+    transition: all .5s ease;
+}
+.banner-content p{
+    margin-bottom: 30px;
+}
+.banner-content .client-list li p a {
+    color: #fec400;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+}
+.pb-70 {
+    padding-bottom: 30px;
+}
+.pt-100{
+    padding-top: 60px;
+}
+
+element.style {
+    opacity: 1;
+    transform: none;
+}
+.section-title {
+    margin-bottom: 30px;
+}
+.section-title {
+    max-width: 700px;
+    margin: -5px auto 50px;
+    text-align: center;
+    position: relative;
+}
+.section-title h2:last-child {
+    margin-bottom: 0;
+}
+.section-title .top-titles {
+font-size: 16px;display: block;
+margin-bottom: 10px;
+font-weight: 600;
+text-transform: capitalize;
+background: linear-gradient(315deg,#098b99,#057fa8);
+-webkit-text-fill-color: transparent;
+}
+.default-btn {
+font-size: 16px;
+color: #fff;
+transition: all .5s ease;
+text-align: center;
+position: relative;
+z-index: 1;
+overflow: hidden;
+display: inline-flex;
+padding: 16px 40px 12px;
+background: linear-gradient(133.65deg,#6cc17e 2.24%,#098b99);
+text-decoration: none;
+}
+.page-banner-area .shape-1{
+position: absolute;
+z-index: 1;
+top: 80px;
+left: 0;
+right: o;
+margin: auto;
+}
+.shape-1 {
+    width: 110px;
+    margin-top: -1033px;
+    margin-left:700px;
+}
+
+.shape-2 {
+    width: 150px;
+    margin-left: 164px;
+    margin-top: -80px;
+}
+
+.shape-3 {
+    margin-left: -987px;
+    width: 180px;
+    margin-bottom: -113px;
+}
+.shape-4{
+    margin-left: 766px;
+    margin-bottom: -176px;
+}
+
+
+
+
+.single-courses .courses-content h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.single-courses .courses-content ul {
+    padding-left: 0;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+.single-courses .courses-content ul.admin {
+    display: flex;
+    align-items: center!important;
+}
+.single-courses .courses-content ul.admin li {
+    display: inline-block;
+    margin-right: 10px;
+    color: #0d0c0c;
+    
+}
+.single-courses .courses-content ul.admin li span {
+    color: #464646;
+    font-size: 14px;
+    font-weight: 400;
+}
+.single-courses .courses-content ul.admin li:last-child {
+    margin-right: 0;
+}
+.single-courses .courses-content h4  del{
+    font-weight: 400;
+    font-size: 18px;
+    background: linear-gradient(315deg,#939393,#939393);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+.single-courses .courses-content h4 {
+    font-size: 25px;
+    letter-spacing: -1px;
+    background: linear-gradient(315deg,#098b99,#057fa8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+}
+.single-courses .courses-hover-content {
+    background: linear-gradient(134.32deg,#6cc17e -19.8%,#098b99);
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all .5s ease;
+    visibility: hidden;
+}
+.single-courses .courses-hover-content .sk {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 30px 19px;
+}
+.single-courses .courses-hover-content h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 12px;
+}
+.single-courses .courses-hover-content p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #dcf6f9;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.justify-content-between {
+    justify-content: space-between!important;
+}
+.d-flex {
+    display: flex!important;
+}
+.single-courses .courses-hover-content .courses-btn .default-btn {
+    background-image: linear-gradient(#f0bf79,#f0bf79);
+    color: #0d0c0c;
+    padding: 10px 28px;
+}
+
+.single-courses .courses-hover-content .courses-btn .default-btn.wish {
+    padding: 3px 11px;
+    background-image: linear-gradient(#0f6c76,#0f6c76);
+}
+.default-btn i {
+    position: relative;
+}
+[class^=ri-] {
+    font-family: remixicon!important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+}
+.single-courses .courses-hover-content .courses-btn .default-btn.wish .hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 0;
+    transition: all .5s ease;
+}
+.single-courses .courses-hover-content .courses-btn .default-btn.wish i {
+    margin-left: 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+}
+.col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+.single-courses {
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+.single-courses .courses-main-img {
+    margin-bottom: 15px;
+    display: block;
+}
+.single-courses .courses-main-img img {
+    border-radius: 5px;
+}
+
+
+
+
+.single-categorie h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    transition: all .5s ease;
+}
+.single-categorie i {
+    font-size: 20px;
+    line-height: 1;
+    transition: all .5s ease;
+}
+.col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.single-categorie:hover {
+    border-color: #2dcd1b;
+}
+a:hover {
+    color: #098b99;
+}
+a, a:hover {
+    
+    text-decoration: none;
+}
+.single-categorie {
+    background: #fff;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    padding: 20px 30px 15px;
+    transition: all .5s ease;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.justify-content-between {
+    justify-content: space-between!important;
+}
+.d-flex {
+    display: flex!important;
+}
+.single-categorie:hover h3 {
+    color: rgb(161, 224, 36);
+}
+.single-categorie h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    transition: all .5s ease;
+}
+.h3{
+    margin-top: 0;
+    line-height: 1.2;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+</Style>
+</head>
+<body>
+    <section style="background-image: linear-gradient(to bottom right, rgb(103, 133, 32), #0e7a9b);">
+               
+                <div class="top-header-area">
+                    <div class="container-fluid">
+                       <div class="row align-items-center">
+                        <div class="col-lg-4 text-light">
+                            <div class="header-left-content">
+                        <p>keep learning with free resources during COVID-19</p>
+                        </div>
+                        </div>
+                 
+
+            </div>
+         </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-md-0 fw-bold">
+        <ul class="nav-list ">
+            
+            <div class="logo "><img src="https://edmy-react.hibootstrap.com/images/logo.png"  ></div>
+            <div class="leftnav p-md-1">
+                <nav class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                      <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search course" aria-label="Search">
+                      </form>
+                    </div>
+                  </nav>
+            </div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/courses.html">course</a></li>
+            <li><a href="#home">instructor</a></li>
+            
+
+        </ul>
+        <body>
+            <div>
+            <a class="default-btn" style="box-shadow: 0 4px 25px rgb(9 139 153 / 30%); margin-left: 500px; margin-right: 16px;" href="#">
+              Registration
+          </a>
+          </div>
+        
+    </nav>
+    
+    <div class="banner-area bg-1">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="banner-img">
+                        <img src="https://edmy-react.hibootstrap.com/images/banner/banner-img-1.png" alt="banner" class="d-block w-100"style="transform: bone;">
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="banner-content" style="padding: 90px; color: aliceblue;">
+                      <h1>
+                        <span class="word-wrapper">
+                            <span style="overflow:hidden;display:inline-block"><span style="display: inline-block; transform: translateY(0%) translateZ(0%);">Improve</span></span>
+                            <span style="overflow:hidden;display:inline-block"><span style="display: inline-block; transform: translateY(0%) translateZ(0px);">&nbsp</span></span>
+                            <span class="word-rapper">
+                            <span style="overflow:hidden;display:inline-block"><span style="display: inline-block; transform: translateY(0%) translateZ(0px);">Your</span></span>
+                            <span style="overflow:hidden;display:inline-block"><span style="display: inline-block; transform: translateY(0%) translateZ(0px);">&nbsp</span></span>
+                            <span class="word-rapper">
+                            <span style="overflow:hidden;display:inline-block"><span style="display: inline-block; transform: translateY(0%) translateZ(0px);">Online</span></span>
+                            <span style="overflow:hidden;display:inline-block"><span style="display: inline-block; transform: translateY(0%) translateZ(0px);">&nbsp</span></span>
+                            <span class="word-rapper">
+                            <span style="overflow:hidden;display:inline-block"><span style="display: inline-block; transform: translateY(0%) translateZ(0px);">&nbsp</span></span>
+                            <span style="overflow:hidden;display:inline-block"><span style="display: inline-block; transform: translateY(0%) translateZ(0px);">Learning</span></span>
+                            <span class="word-rapper">
+                            <span style="overflow:hidden;display:inline-block"><span style="display: inline-block; transform: translateY(0%) translateZ(0px);">&nbsp</span></span>
+                            <span style="overflow:hidden;display:inline-block"><span style="display: inline-block; transform: translateY(0%) translateZ(0px);">Experience</span></span>
+                            <span class="word-rapper">
+                            <span style="overflow:hidden;display:inline-block"><span style="display: inline-block; transform: translateY(0%) translateZ(0px);">&nbsp</span></span>
+                            <span style="overflow:hidden;display:inline-block"><span style="display: inline-block; transform: translateY(0%) translateZ(0px);">Better</span></span>
+                            <span class="word-rapper">
+                            <span style="overflow:hidden;display:inline-block"><span style="display: inline-block; transform: translateY(0%) translateZ(0px);">&nbsp</span></span>
+                            <span style="overflow:hidden;display:inline-block"><span style="display: inline-block; transform: translateY(0%) translateZ(0px);">Instantly</span></span>
+
+                            </span>
+                         </span>
+                     </span>
+                            
+                          </span>
+                        </span>
+                    </span>
+                </span>
+                      </h1>  
+                      <div class="text-warning">
+                      <p style="opacity: 1; transform: none;">
+                        We have
+                        <span>40k</span>
+                          Online courses &
+                         <!-- -->
+                          <span>500K+</span> 
+                         Online registered student. Find your desired Courses from them.
+                      </p>
+                      <from class="search-form d-flex">
+                        <input type="text" class="form-control"placeholder="search cources" style="color: #f4f0e1;" name="search" value>
+                        <button type="submit" class="default-btn">
+
+                            <span>search Now</span>
+                            <i class="ri-search-line">
+
+                            </i>
+                        </button>
+                      </from>
+                      <ul class="clint-list" style="padding: inherit; display: flex;">
+                        
+                        <li style="display: flex;">
+                            <img src="https://edmy-react.hibootstrap.com/images/banner/client-1.jpg" alt="banner" class="client"style=" margin-left: -20px; width: 50px;border-radius: 30px;">
+                            <img src="https://edmy-react.hibootstrap.com/images/banner/client-2.jpg" alt="banner" class="client"style=" margin-left: -20px;width:50px;border-radius: 30px;">
+                            <img src="https://edmy-react.hibootstrap.com/images/banner/client-3.jpg" alt="banner" class="client"style=" margin-left: -20px;width:50px;border-radius: 30px;">
+                        </li>
+                        <li>
+                            <p style="margin-inline: 10px;">
+                               500k+ people already trusted us.
+                                <a href="#" class="read-more" style="text-decoration: none;">
+                                    View Courses
+                                <i class="ri-arrow-right-line">
+
+                                </i>
+
+                                </a>
+                                
+                            </a>
+                                
+                            </p>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+
+            </div>
+            <img src="https://edmy-react.hibootstrap.com/images/banner/shape-1.svg" alt="course"
+                class="shape shape-1">
+            <img src="https://edmy-react.hibootstrap.com/images/banner/shape-3.svg" alt="course"
+                class="shape shape-2">
+            <img src="https://edmy-react.hibootstrap.com/images/banner/shape-2.svg" alt="course"
+                class="shape shape-3">
+
+
+        </div>
+                </div>
+            </style>
+                <div class="course-area pt-100 pb-70" style="background-color: #f2f0ef;">
+                    <div class="container">
+                        <div class="section-title" style="opacity: 1; transform: none;">
+                            <span class="top-title text-primary fw-bold">popular Course</span>
+                            <h2>Expand Your Career Opportunity With Our Courses</h2>
+                            
+                        </div>
+
+                        
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="single-courses">
+                                <div class="courses-main-img">
+                                    <img src="https://res.cloudinary.com/dev-empty/image/upload/v1661246066/r56386ipf0e55vcjtg3d.jpg" alt="Image">
+                                </div>
+                                <div class="courses-content">
+                                    <h3>Linux Administration Bootcamp: Go from Beginner to Advanced</h3>
+                                    <ul class="admin">
+                                        <li>
+                                            <img src="https://res.cloudinary.com/dev-empty/image/upload/v1661245253/wqsnxv0pfdwl2abdakf5.jpg" class="rounded-circle" alt="Admin" style="height: 25px; width: 25px;">
+                                        </li>
+                                        <li>
+                                            <span>By</span>
+                                        </li>
+                                        <li>Admin User</li>
+                                    </ul>
+                                    <h4 style="font-weight: 700; color: #0d0c0c;">
+                                        <del>
+                                            $
+                                            84.99
+                                        </del>
+                                         $
+                                         9.99
+                                        </h4>
+                                    </div>
+                                    <div class="courses-hover-content">
+                                        <div class="sk">
+                                            <div>
+                                                <h3 style="font-weight: 700; color: #0d0c0c;">
+                                                    <a href="/course/linux-administration-bootcamp-go-from-beginner-to-advanced/">Linux Administration Bootcamp: Go from Beginner to Advanced</a>
+                                                </h3>
+                                                <p>
+                                                    Hello. My name is Admin Cannon and I'm the author of Linux for Beginners, the founder of the Linux Training 
+                                                </p>
+                                                    <div class="courses-btn d-flex justify-content-between align-items-center">
+                                                        <button class="default-btn">Add To Cart</button>
+                                                        <button class="default-btn wish">
+                                                            <i class="ri-heart-line">
+
+                                                            </i>
+                                                            <i class="ri-heart-fill hover">
+
+                                                            </i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="single-courses">
+                                        <div class="courses-main-img">
+                                            <img src="https://res.cloudinary.com/dev-empty/image/upload/v1662268371/xbablxdvrkt03pfr4sfw.jpg" alt="Image">
+                                        </div>
+                                        <div class="courses-content">
+                                            <h3>Complete workout : Complete Fitness Certification</h3>
+                                            <ul class="admin">
+                                                <li>
+                                                    <img src="https://res.cloudinary.com/dev-empty/image/upload/v1661230727/rquq94qv4bpuvf7xnxyh.jpg" class="rounded-circle" alt="Instructor" style="height: 25px; width: 25px;">
+                                                </li>
+                                                <li>
+                                                    <span>By</span>
+                                                </li>
+                                                <li>Instructor User</li>
+                                            </ul>
+                                            <h4 style="font-weight: 700; color: #0d0c0c;">
+                                                <del>
+                                                    $
+                                                    50
+                                                </del> 
+                                                $
+                                                39.99
+                                            </h4>
+                                        </div>
+                                        <div class="courses-hover-content">
+                                            <div class="sk">
+                                                <div>
+                                                    <h3>
+                                                        <a href="/course/complete-workout-complete-fitness-certification/">Complete workout : Complete Fitness Certification</a>
+                                                    </h3>
+                                                    <p>Complete workout for Fitness, Weight loss, Weight gain, &amp; Body Building ,Get Certification After completion!</p>
+                                                    <div class="courses-btn d-flex justify-content-between align-items-center">
+                                                        <button class="default-btn">Add To Cart</button>
+                                                        <button class="default-btn wish">
+                                                            <i class="ri-heart-line">
+
+                                                            </i>
+                                                            <i class="ri-heart-fill hover">
+
+                                                            </i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="single-courses">
+                                        <div class="courses-main-img">
+                                            <img src="https://res.cloudinary.com/dev-empty/image/upload/v1660634163/icvgops1gqcosgv3dxde.jpg" alt="Image">
+                                        </div>
+                                        <div class="courses-content">
+                                            <h3>Business Bootcamp: 7 Weeks to Start Your Own Business</h3>
+                                            <ul class="admin">
+                                                <li>
+                                                    <img src="https://res.cloudinary.com/dev-empty/image/upload/v1661245253/wqsnxv0pfdwl2abdakf5.jpg" class="rounded-circle" alt="Admin" style="height: 25px; width: 25px;">
+                                                </li>
+                                                <li>
+                                                    <span>By</span>
+                                                </li>
+                                                <li>Admin User</li>
+                                            </ul>
+                                            <h4 style="font-weight: 700; color: #0d0c0c;">
+                                                <del>
+                                                    $
+                                                    84.99
+                                                </del>
+                                                 $
+                                                 16.99
+                                                </h4>
+                                            </div>
+                                            <div class="courses-hover-content">
+                                                <div class="sk">
+                                                    <div>
+                                                        <h3>
+                                                            <a href="/course/business-bootcamp-7-weeks-to-start-your-own-business/">Business Bootcamp: 7 Weeks to Start Your Own Business</a>
+                                                        </h3>
+                                                        <p>I'll teach you the skills necessary to stand out from the crowd. Whether it’s a personal passion or a busine</p>
+                                                        <div class="courses-btn d-flex justify-content-between align-items-center">
+                                                            <button class="default-btn">Add To Cart</button>
+                                                            <button class="default-btn wish">
+                                                                <i class="ri-heart-line">
+
+                                                                </i>
+                                                                <i class="ri-heart-fill hover">
+
+                                                                </i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="single-courses">
+                                            <div class="courses-main-img">
+                                                <img src="https://res.cloudinary.com/dev-empty/image/upload/v1662283339/r1ysgphohxnzf1t5a4m0.jpg" alt="Image">
+                                            </div>
+                                            <div class="courses-content">
+                                                <h3>AWS Certified Security Specialty 2022</h3>
+                                                <ul class="admin">
+                                                    <li>
+                                                        <img src="https://res.cloudinary.com/dev-empty/image/upload/v1661230727/rquq94qv4bpuvf7xnxyh.jpg" class="rounded-circle" alt="Instructor" style="height: 25px; width: 25px;">
+                                                    </li>
+                                                    <li>
+                                                        <span>By</span>
+                                                    </li>
+                                                    <li>Instructor User</li>
+                                                </ul>
+                                                <h4 style="font-weight: 700; color: #0d0c0c;">
+                                                    <del>
+                                                        $
+                                                        100
+                                                    </del>
+                                                     $
+                                                     34.99
+                                                    </h4>
+                                                </div>
+                                                <div class="courses-hover-content">
+                                                    <div class="sk">
+                                                        <div>
+                                                            <h3>
+                                                                <a href="/course/aws-certified-security-specialty-2022/">AWS Certified Security Specialty 2022</a>
+                                                    </h3>
+                                                    <p>AWS Certified Security - Specialty certification is one of the widely recognized security certifications acr</p>
+                                                    <div class="courses-btn d-flex justify-content-between align-items-center">
+                                                        <button class="default-btn">Add To Cart</button>
+                                                        <button class="default-btn wish"><i class="ri-heart-line">
+
+                                                        </i>
+                                                        <i class="ri-heart-fill hover">
+
+                                                        </i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                        
+
+                            
+                               
+                               
+                          
+
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="feature-dcourses-area bg-color-f6fafb pt-100 pb-70" style="background-color: #f4f0e1;">
+                <div class="container" style="max-width: 1320px;">
+                    <div class="title-btn d-flex justify-content-between align-items-center">
+                        <div class="section-title left-title" style= " margin-left: 0px; opacity: 1; transform: none;">
+                            <span class="top-title fw-bold" style=" margin-left: -299px ; color: #057fa8;">Featured Courses</span>
+                            <h2>Find Yours From The Featured</h2>
+                        </div>
+                        <a class="default-btn" style="box-shadow: 0 4px 25px rgb(9 139 153 / 30%);" href="#">
+                            View All
+                        </a>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="single-courses">
+                                <div class="courses-main-img">
+                                    <img src="https://res.cloudinary.com/dev-empty/image/upload/v1661246066/r56386ipf0e55vcjtg3d.jpg" alt="Image">
+                                </div>
+                                <div class="courses-content">
+                                    <h3>Linux Administration Bootcamp: Go from Beginner to Advanced</h3>
+                                    <ul class="admin">
+                                        <li>
+                                            <img src="https://res.cloudinary.com/dev-empty/image/upload/v1661245253/wqsnxv0pfdwl2abdakf5.jpg" class="rounded-circle" alt="Admin" style="height: 25px; width: 25px;">
+                                        </li>
+                                        <li>
+                                            <span>By</span>
+                                        </li>
+                                        <li>Admin User</li>
+                                    </ul>
+                                    <h4 style="font-weight: 700; color: #0d0c0c;">
+                                        <del>
+                                            $
+                                            84.99
+                                        </del>
+                                         $
+                                         9.99
+                                        </h4>
+                                    </div>
+                                    <div class="courses-hover-content">
+                                        <div class="sk">
+                                            <div>
+                                                <h3 style="font-weight: 700; color: #0d0c0c;">
+                                                    <a href="/course/linux-administration-bootcamp-go-from-beginner-to-advanced/">Linux Administration Bootcamp: Go from Beginner to Advanced</a>
+                                                </h3>
+                                                <p>
+                                                    Hello. My name is Admin Cannon and I'm the author of Linux for Beginners, the founder of the Linux Training 
+                                                </p>
+                                                    <div class="courses-btn d-flex justify-content-between align-items-center">
+                                                        <button class="default-btn">Add To Cart</button>
+                                                        <button class="default-btn wish">
+                                                            <i class="ri-heart-line">
+
+                                                            </i>
+                                                            <i class="ri-heart-fill hover">
+
+                                                            </i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="single-courses">
+                                        <div class="courses-main-img">
+                                            <img src="https://res.cloudinary.com/dev-empty/image/upload/v1662268371/xbablxdvrkt03pfr4sfw.jpg" alt="Image">
+                                        </div>
+                                        <div class="courses-content">
+                                            <h3>Complete workout : Complete Fitness Certification</h3>
+                                            <ul class="admin">
+                                                <li>
+                                                    <img src="https://res.cloudinary.com/dev-empty/image/upload/v1661230727/rquq94qv4bpuvf7xnxyh.jpg" class="rounded-circle" alt="Instructor" style="height: 25px; width: 25px;">
+                                                </li>
+                                                <li>
+                                                    <span>By</span>
+                                                </li>
+                                                <li>Instructor User</li>
+                                            </ul>
+                                            <h4 style="font-weight: 700; color: #0d0c0c;">
+                                                <del>
+                                                    $
+                                                    50
+                                                </del> 
+                                                $
+                                                39.99
+                                            </h4>
+                                        </div>
+                                        <div class="courses-hover-content">
+                                            <div class="sk">
+                                                <div>
+                                                    <h3>
+                                                        <a href="/course/complete-workout-complete-fitness-certification/">Complete workout : Complete Fitness Certification</a>
+                                                    </h3>
+                                                    <p>Complete workout for Fitness, Weight loss, Weight gain, &amp; Body Building ,Get Certification After completion!</p>
+                                                    <div class="courses-btn d-flex justify-content-between align-items-center">
+                                                        <button class="default-btn">Add To Cart</button>
+                                                        <button class="default-btn wish">
+                                                            <i class="ri-heart-line">
+
+                                                            </i>
+                                                            <i class="ri-heart-fill hover">
+
+                                                            </i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="single-courses">
+                                        <div class="courses-main-img">
+                                            <img src="https://res.cloudinary.com/dev-empty/image/upload/v1660634163/icvgops1gqcosgv3dxde.jpg" alt="Image">
+                                        </div>
+                                        <div class="courses-content">
+                                            <h3>Business Bootcamp: 7 Weeks to Start Your Own Business</h3>
+                                            <ul class="admin">
+                                                <li>
+                                                    <img src="https://res.cloudinary.com/dev-empty/image/upload/v1661245253/wqsnxv0pfdwl2abdakf5.jpg" class="rounded-circle" alt="Admin" style="height: 25px; width: 25px;">
+                                                </li>
+                                                <li>
+                                                    <span>By</span>
+                                                </li>
+                                                <li>Admin User</li>
+                                            </ul>
+                                            <h4 style="font-weight: 700; color: #0d0c0c;">
+                                                <del>
+                                                    $
+                                                    84.99
+                                                </del>
+                                                 $
+                                                 16.99
+                                                </h4>
+                                            </div>
+                                            <div class="courses-hover-content">
+                                                <div class="sk">
+                                                    <div>
+                                                        <h3>
+                                                            <a href="/course/business-bootcamp-7-weeks-to-start-your-own-business/">Business Bootcamp: 7 Weeks to Start Your Own Business</a>
+                                                        </h3>
+                                                        <p>I'll teach you the skills necessary to stand out from the crowd. Whether it’s a personal passion or a busine</p>
+                                                        <div class="courses-btn d-flex justify-content-between align-items-center">
+                                                            <button class="default-btn">Add To Cart</button>
+                                                            <button class="default-btn wish">
+                                                                <i class="ri-heart-line">
+
+                                                                </i>
+                                                                <i class="ri-heart-fill hover">
+
+                                                                </i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="single-courses">
+                                            <div class="courses-main-img">
+                                                <img src="https://res.cloudinary.com/dev-empty/image/upload/v1662283339/r1ysgphohxnzf1t5a4m0.jpg" alt="Image">
+                                            </div>
+                                            <div class="courses-content">
+                                                <h3>AWS Certified Security Specialty 2022</h3>
+                                                <ul class="admin">
+                                                    <li>
+                                                        <img src="https://res.cloudinary.com/dev-empty/image/upload/v1661230727/rquq94qv4bpuvf7xnxyh.jpg" class="rounded-circle" alt="Instructor" style="height: 25px; width: 25px;">
+                                                    </li>
+                                                    <li>
+                                                        <span>By</span>
+                                                    </li>
+                                                    <li>Instructor User</li>
+                                                </ul>
+                                                <h4 style="font-weight: 700; color: #0d0c0c;">
+                                                    <del>
+                                                        $
+                                                        100
+                                                    </del>
+                                                     $
+                                                     34.99
+                                                    </h4>
+                                                </div>
+                                                <div class="courses-hover-content">
+                                                    <div class="sk">
+                                                        <div>
+                                                            <h3>
+                                                                <a href="/course/aws-certified-security-specialty-2022/">AWS Certified Security Specialty 2022</a>
+                                                    </h3>
+                                                    <p>AWS Certified Security - Specialty certification is one of the widely recognized security certifications acr</p>
+                                                    <div class="courses-btn d-flex justify-content-between align-items-center">
+                                                        <button class="default-btn">Add To Cart</button>
+                                                        <button class="default-btn wish"><i class="ri-heart-line">
+
+                                                        </i>
+                                                        <i class="ri-heart-fill hover">
+
+                                                        </i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img src="https://edmy-react.hibootstrap.com/images/courses-shape.png" class="courses-shape" alt="Image">
+                </div> -->
+
+
+                <div class="feature-dcourses-area bg-color-f6fafb pt-100 pb-70" style="background-color: #f4f0e1;">
+                    <div class="container" style="max-width: 1320px;">
+                        <div class="title-btn d-flex justify-content-between align-items-center">
+                            <div class="section-title left-title" style= " margin-left: 0px; opacity: 1; transform: none;">
+                                <span class="top-title fw-bold" style=" margin-left: -299px ; color: #057fa8;">Featured Courses</span>
+                                <h2 style="font-size: 37px;">Students Are Also Viewing</h2>
+                            </div>
+                            <a class="default-btn" style="box-shadow: 0 4px 25px rgb(9 139 153 / 30%);" href="#">
+                                View All
+                            </a>
+                        </div>
+
+
+
+                        
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="single-courses">
+                                <div class="courses-main-img">
+                                    <img src="https://res.cloudinary.com/dev-empty/image/upload/v1661246066/r56386ipf0e55vcjtg3d.jpg" alt="Image">
+                                </div>
+                                <div class="courses-content">
+                                    <h3>Linux Administration Bootcamp: Go from Beginner to Advanced</h3>
+                                    <ul class="admin">
+                                        <li>
+                                            <img src="https://res.cloudinary.com/dev-empty/image/upload/v1661245253/wqsnxv0pfdwl2abdakf5.jpg" class="rounded-circle" alt="Admin" style="height: 25px; width: 25px;">
+                                        </li>
+                                        <li>
+                                            <span>By</span>
+                                        </li>
+                                        <li>Admin User</li>
+                                    </ul>
+                                    <h4 style="font-weight: 700; color: #0d0c0c;">
+                                        <del>
+                                            $
+                                            84.99
+                                        </del>
+                                         $
+                                         9.99
+                                        </h4>
+                                    </div>
+                                    <div class="courses-hover-content">
+                                        <div class="sk">
+                                            <div>
+                                                <h3 style="font-weight: 700; color: #0d0c0c;">
+                                                    <a href="/course/linux-administration-bootcamp-go-from-beginner-to-advanced/">Linux Administration Bootcamp: Go from Beginner to Advanced</a>
+                                                </h3>
+                                                <p>
+                                                    Hello. My name is Admin Cannon and I'm the author of Linux for Beginners, the founder of the Linux Training 
+                                                </p>
+                                                    <div class="courses-btn d-flex justify-content-between align-items-center">
+                                                        <button class="default-btn">Add To Cart</button>
+                                                        <button class="default-btn wish">
+                                                            <i class="ri-heart-line">
+
+                                                            </i>
+                                                            <i class="ri-heart-fill hover">
+
+                                                            </i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="single-courses">
+                                        <div class="courses-main-img">
+                                            <img src="https://res.cloudinary.com/dev-empty/image/upload/v1662268371/xbablxdvrkt03pfr4sfw.jpg" alt="Image">
+                                        </div>
+                                        <div class="courses-content">
+                                            <h3>Complete workout : Complete Fitness Certification</h3>
+                                            <ul class="admin">
+                                                <li>
+                                                    <img src="https://res.cloudinary.com/dev-empty/image/upload/v1661230727/rquq94qv4bpuvf7xnxyh.jpg" class="rounded-circle" alt="Instructor" style="height: 25px; width: 25px;">
+                                                </li>
+                                                <li>
+                                                    <span>By</span>
+                                                </li>
+                                                <li>Instructor User</li>
+                                            </ul>
+                                            <h4 style="font-weight: 700; color: #0d0c0c;">
+                                                <del>
+                                                    $
+                                                    50
+                                                </del> 
+                                                $
+                                                39.99
+                                            </h4>
+                                        </div>
+                                        <div class="courses-hover-content">
+                                            <div class="sk">
+                                                <div>
+                                                    <h3>
+                                                        <a href="/course/complete-workout-complete-fitness-certification/">Complete workout : Complete Fitness Certification</a>
+                                                    </h3>
+                                                    <p>Complete workout for Fitness, Weight loss, Weight gain, &amp; Body Building ,Get Certification After completion!</p>
+                                                    <div class="courses-btn d-flex justify-content-between align-items-center">
+                                                        <button class="default-btn">Add To Cart</button>
+                                                        <button class="default-btn wish">
+                                                            <i class="ri-heart-line">
+
+                                                            </i>
+                                                            <i class="ri-heart-fill hover">
+
+                                                            </i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="single-courses">
+                                        <div class="courses-main-img">
+                                            <img src="https://res.cloudinary.com/dev-empty/image/upload/v1660634163/icvgops1gqcosgv3dxde.jpg" alt="Image">
+                                        </div>
+                                        <div class="courses-content">
+                                            <h3>Business Bootcamp: 7 Weeks to Start Your Own Business</h3>
+                                            <ul class="admin">
+                                                <li>
+                                                    <img src="https://res.cloudinary.com/dev-empty/image/upload/v1661245253/wqsnxv0pfdwl2abdakf5.jpg" class="rounded-circle" alt="Admin" style="height: 25px; width: 25px;">
+                                                </li>
+                                                <li>
+                                                    <span>By</span>
+                                                </li>
+                                                <li>Admin User</li>
+                                            </ul>
+                                            <h4 style="font-weight: 700; color: #0d0c0c;">
+                                                <del>
+                                                    $
+                                                    84.99
+                                                </del>
+                                                 $
+                                                 16.99
+                                                </h4>
+                                            </div>
+                                            <div class="courses-hover-content">
+                                                <div class="sk">
+                                                    <div>
+                                                        <h3>
+                                                            <a href="/course/business-bootcamp-7-weeks-to-start-your-own-business/">Business Bootcamp: 7 Weeks to Start Your Own Business</a>
+                                                        </h3>
+                                                        <p>I'll teach you the skills necessary to stand out from the crowd. Whether it’s a personal passion or a busine</p>
+                                                        <div class="courses-btn d-flex justify-content-between align-items-center">
+                                                            <button class="default-btn">Add To Cart</button>
+                                                            <button class="default-btn wish">
+                                                                <i class="ri-heart-line">
+
+                                                                </i>
+                                                                <i class="ri-heart-fill hover">
+
+                                                                </i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="single-courses">
+                                            <div class="courses-main-img">
+                                                <img src="https://res.cloudinary.com/dev-empty/image/upload/v1662283339/r1ysgphohxnzf1t5a4m0.jpg" alt="Image">
+                                            </div>
+                                            <div class="courses-content">
+                                                <h3>AWS Certified Security Specialty 2022</h3>
+                                                <ul class="admin">
+                                                    <li>
+                                                        <img src="https://res.cloudinary.com/dev-empty/image/upload/v1661230727/rquq94qv4bpuvf7xnxyh.jpg" class="rounded-circle" alt="Instructor" style="height: 25px; width: 25px;">
+                                                    </li>
+                                                    <li>
+                                                        <span>By</span>
+                                                    </li>
+                                                    <li>Instructor User</li>
+                                                </ul>
+                                                <h4 style="font-weight: 700; color: #0d0c0c;">
+                                                    <del>
+                                                        $
+                                                        100
+                                                    </del>
+                                                     $
+                                                     34.99
+                                                    </h4>
+                                                </div>
+                                                <div class="courses-hover-content">
+                                                    <div class="sk">
+                                                        <div>
+                                                            <h3>
+                                                                <a href="/course/aws-certified-security-specialty-2022/">AWS Certified Security Specialty 2022</a>
+                                                    </h3>
+                                                    <p>AWS Certified Security - Specialty certification is one of the widely recognized security certifications acr</p>
+                                                    <div class="courses-btn d-flex justify-content-between align-items-center">
+                                                        <button class="default-btn">Add To Cart</button>
+                                                        <button class="default-btn wish"><i class="ri-heart-line">
+
+                                                        </i>
+                                                        <i class="ri-heart-fill hover">
+
+                                                        </i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="course-area pt-100 pb-70" style="background-color: #f2f0ef;">
+                        <div class="container">
+                            <div class="section-title" style="opacity: 1; transform: none;">
+                                <span class="top-title text-primary fw-bold"> Top Categories</span>
+                                <h2>Browse Top Categories</h2>
+                                
+                            </div>
+                            <div class="row" style="--bs-gutter-x: 1.5rem;--bs-gutter-y: 0; display: flex;flex-wrap: wrap;
+                            margin-top: calc(-1 * var(--bs-gutter-y));
+                            margin-right: calc(-.5 * var(--bs-gutter-x));
+                            margin-left: calc(-.5 * var(--bs-gutter-x));">
+                                <div class="col-lg-3 col-sm-6" style="  opacity: 1; transform: none; transform-origin: 0% 50% 0px;">
+                                    <a class="single-categorie d-flex justify-content-between align-items-center align-items-center" href="/category/lifestyle/" style="text-decoration: none;">
+                                        <h3>Lifestyle</h3>
+                                        <i class="flaticon-developer">
+
+                                        </i>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-sm-6" style="opacity: 1; transform: none; transform-origin: 0% 50% 0px;"><a class="single-categorie d-flex justify-content-between align-items-center align-items-center" href="/category/ruffed/"><h3>ruffed</h3><i class="flaticon-developer"></i></a></div><div class="col-lg-3 col-sm-6" style="opacity: 1; transform: none;"><a class="single-categorie d-flex justify-content-between align-items-center align-items-center" href="/category/tyu/"><h3>tyu</h3><i class="flaticon-developer"></i></a></div><div class="col-lg-3 col-sm-6" style="opacity: 1; transform: none;"><a class="single-categorie d-flex justify-content-between align-items-center align-items-center" href="/category/h/"><h3>H</h3><i class="flaticon-developer"></i></a></div><div class="col-lg-3 col-sm-6" style="opacity: 1; transform: none;"><a class="single-categorie d-flex justify-content-between align-items-center align-items-center" href="/category/it-software/"><h3>IT &amp; Software</h3><i class="flaticon-developer"></i></a></div><div class="col-lg-3 col-sm-6" style="opacity: 1; transform: none; transform-origin: 0% 50% 0px;"><a class="single-categorie d-flex justify-content-between align-items-center align-items-center" href="/category/s/"><h3>s</h3><i class="flaticon-developer"></i></a></div><div class="col-lg-3 col-sm-6" style="opacity: 1; transform: none;"><a class="single-categorie d-flex justify-content-between align-items-center align-items-center" href="/category/music-383/"><h3>Music</h3><i class="flaticon-developer"></i></a></div><div class="col-lg-3 col-sm-6" style="opacity: 1; transform: none;"><a class="single-categorie d-flex justify-content-between align-items-center align-items-center" href="/category/health-fitness/"><h3>Health &amp; Fitness</h3><i class="flaticon-developer"></i></a></div><div class="col-lg-3 col-sm-6" style="opacity: 1; transform: none;"><a class="single-categorie d-flex justify-content-between align-items-center align-items-center" href="/category/finance-accounting/"><h3>Finance &amp; Accounting</h3><i class="flaticon-developer"></i></a></div><div class="col-lg-3 col-sm-6" style="opacity: 1; transform: none; transform-origin: 0% 50% 0px;"><a class="single-categorie d-flex justify-content-between align-items-center align-items-center" href="/category/photography-video/"><h3>Photography &amp; Video</h3><i class="flaticon-developer"></i></a></div><div class="col-lg-3 col-sm-6" style="opacity: 1; transform: none;"><a class="single-categorie d-flex justify-content-between align-items-center align-items-center" href="/category/fff/"><h3>fff</h3><i class="flaticon-developer"></i></a></div><div class="col-lg-3 col-sm-6" style="opacity: 1; transform: none;"><a class="single-categorie d-flex justify-content-between align-items-center align-items-center" href="/category/sadsafas/"><h3>sadsafas</h3><i class="flaticon-developer"></i></a></div><div class="col-lg-12 "><p class="text-center fw-bold" style="color: darkslategray;">Browse All <a class="read-more" href="/courses/">Courses <i class="ri-arrow-right-line"></i></a></p></div></div>
+                        </div>
+                    </div>
+                    
+
+
+
+
+
+
+
+
+
+
+
+                
+                
+            
+        
+
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+                    <script>
+                        $(function () {
+                            setInterval(function () {
+                                $('.shape-1').fadeIn(1000).delay(2000).fadeOut(1500).delay(3000).fadeIn(1500);
+                                $('.shape-2').fadeIn(1000).delay(2000).fadeOut(1500).delay(4000).fadeIn(1500);
+                                $('.shape-3').fadeIn(1000).delay(2000).fadeOut(1500).delay(5000).fadeIn(1500);
+                            }, 2000);
+                        });
+                    </script>
+    
+</body>
+
+</html>
